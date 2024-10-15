@@ -1,0 +1,1 @@
+"push": "git status && git add . && git commit -m "Un update basic" && git push origin main",

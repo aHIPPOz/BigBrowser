@@ -2,14 +2,13 @@
     "name": "BigBrowser",
     "version": "^1.0.0",
     "description": "Un projet Node.js pour un navigateur web complet",
-    "main": "index.js",
+    "main": "pages/index.tsx",
     "scripts": {
-        "start": "node index.js",
+        "start": "next dev",
         "devmon": "nodemon index.ts",
-        "nextStart": "next dev",
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "typeBuild": "tsc",
-        "nextBuild": "next build",
+        "dev": "next dev",
+        "push": "git status && git add . && git commit -m \"Un update basic\" && git push origin main",
+        "build": "next build",
         "lint": "next lint"
     },
     "keywords": [
