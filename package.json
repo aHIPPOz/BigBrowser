@@ -1,0 +1,22 @@
+{
+    "name": "BigBrowser",
+    "version": "1.0.0",
+    "description": "Un projet Node.js pour un navigateur web complet",
+    "main": "index.gs",
+    "scripts": {
+      "start": "clasp run start",
+      "dev": "clasp run devStart",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "aHIPPOz",
+    "license": "MIT",
+    "dependencies": {
+    "express": "^4.18.2",
+    "@google/clasp": "^2.4.1"
+  },
+    "devDependencies": {
+      "nodemon": "^3.0.1"
+    }
+  }
+  
