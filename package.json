@@ -1,22 +1,35 @@
 {
     "name": "BigBrowser",
-    "version": "1.0.0",
+    "version": "^1.0.0",
     "description": "Un projet Node.js pour un navigateur web complet",
-    "main": "index.gs",
+    "main": "index.js",
     "scripts": {
-      "start": "clasp run start",
-      "dev": "clasp run devStart",
-      "test": "echo \"Error: no test specified\" && exit 1"
+        "start": "node index.js",
+        "devmon": "nodemon index.ts",
+        "nextStart": "next dev",
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "typeBuild": "tsc",
+        "nextBuild": "next build",
+        "lint": "next lint"
     },
-    "keywords": [],
+    "keywords": [
+        "Browser"
+    ],
     "author": "aHIPPOz",
-    "license": "MIT",
+    "license": "GPL-3.0",
     "dependencies": {
-    "express": "^4.18.2",
-    "@google/clasp": "^2.4.1"
-  },
+        "express": "^4.18.2",
+        "next": "^13.0.0",
+        "react": "^18.0.0",
+        "react-dom": "^18.0.0"
+    },
     "devDependencies": {
-      "nodemon": "^3.0.1"
+        "@types/node": "22.7.5",
+        "@types/react": "18.3.11",
+        "autoprefixer": "^10.4.0",
+        "nodemon": "^3.0.1",
+        "postcss": "^8.4.0",
+        "tailwindcss": "^3.0.0",
+        "typescript": "^5.2.2"
     }
-  }
-  
+}

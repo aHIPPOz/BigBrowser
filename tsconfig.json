@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "target": "ESNext", // Version ECMAScript optimisée pour Node.js
+    "module": "NodeNext", // Module système utilisé pour Node.js
+    "outDir": "./", // Dossier de sortie, ici la racine du projet
+    "strict": true, // Activer le mode strict pour TypeScript
+    "esModuleInterop": true, // Permet l'interopérabilité avec les modules CommonJS
+    "moduleResolution": "node", // Résolution des modules dans node_modules
+    "skipLibCheck": true // Ignore la vérification des types dans les fichiers de bibliothèque
+    ,
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "noEmit": true,
+    "incremental": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve"
+  },
+  "include": [
+    "src/**/*.ts"
+  ], // Inclure tous les fichiers .ts dans le dossier src
+  "exclude": [
+    "node_modules"
+  ] // Exclure node_modules
+}
